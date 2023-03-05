@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700;800;900&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Inter";
+}
+
+p,
+.h1,
+.h2,
+.h3,
+.h4 {
+	margin: 0;
+	padding: 0;
+	margin-block-end: 0;
+	margin-block-start: 0;
+}
+
+p {
+	line-height: 150%;
+}
+
+:root {
+	--primary-color: #0019fd;
+	--secondary-color: #fde400;
+	--primary-hue: 234;
+	--secondary-hue: 54;
+
+	--floating-shadow: 0px 5px 15px -6px rgba(0, 0, 0, 0.7);
+}
+
+@media (min-width: 992px) {
+	:root {
+		--margin: calc(10%);
+	}
+}
+
+@media (min-width: 1200px) {
+	:root {
+		--margin: 7%;
+	}
+}
+
+.bs-reg {
+	width: fit-content;
+	padding: 0 17px;
+	height: 40px;
+	border-radius: 3px;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.bs-med {
+	width: fit-content;
+	padding: 0 17px;
+	height: 56px;
+	border-radius: 3px;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.bs-lar {
+	width: fit-content;
+	padding: 0 17px;
+	height: 64px;
+	border-radius: 3px;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.bs-reg > p {
+	margin: 0;
+	padding: 0;
+	font-size: 1rem;
+	user-select: none;
+	font-weight: 500;
+}
+.bs-med > p {
+	margin: 0;
+	padding: 0;
+	font-size: 1.2rem;
+	user-select: none;
+	font-weight: 600;
+}
+.bs-lar > p {
+	margin: 0;
+	padding: 0;
+	font-size: 1.3rem;
+	user-select: none;
+	font-weight: 600;
+}
+
+.display {
+	font-size: 52px;
+}
+.h1 {
+	font-size: 32px;
+}
+.h2 {
+	font-size: 24px;
+}
+.h3 {
+	font-size: 20px;
+}
+.p-lar {
+	font-size: 20px;
+}
+.p-reg {
+	font-size: 18px;
+}
+.p-sml {
+	font-size: 16px;
+}
+
+@media (min-width: 576px) {
+	.display {
+		font-size: 61px;
+	}
+	.h1 {
+		font-size: 36px;
+	}
+	.h2 {
+		font-size: 24px;
+	}
+	.h3 {
+		font-size: 20px;
+	}
+
+}
+@media (min-width: 1400px) {
+	.display {
+		font-size: 70px;
+	}
+	.h1 {
+		font-size: 48px;
+	}
+	.h2 {
+		font-size: 32px;
+	}
+	.h3 {
+		font-size: 24px;
+	}
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.black {
+	font-weight: 900;
+}
+
+.mb-4 {
+	margin-bottom: 4px;
+}
+.mb-6 {
+	margin-bottom: 6px;
+}
+.mb-10 {
+	margin-bottom: 10px;
+}
+.mb-17 {
+	margin-bottom: 17px;
+}
+
+.mb-22 {
+	margin-bottom: 22px;
+}
+
+.mb-27 {
+	margin-bottom: 27px;
+}
+.mb-44 {
+	margin-bottom: 44px;
+}
+
+.s-4 {
+	height: 4px;
+}
+.s-6 {
+	height: 6px;
+}
+.s-10 {
+	height: 10px;
+}
+.s-17 {
+	height: 17px;
+}
+.s-27 {
+	height: 27px;
+}
+.s-44 {
+	height: 44px;
+}
+
+.shadow-floating {
+	box-shadow: 0px 5px 15px -6px rgba(0, 0, 0, 0.7);
+}
+
+.f-400 {
+	font-weight: 400;
+}
+.f-500 {
+	font-weight: 500;
+}
+.f-600 {
+	font-weight: 600;
+}
+.f-700 {
+	font-weight: 700;
+}
+
+/* width */
+::-webkit-scrollbar {
+width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #b5b5b5;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #555;
+}
+.f-800{
+	font-weight: 800;
+}
+.f-900{
+	font-weight: 900;
+}

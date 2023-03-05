@@ -1,0 +1,13 @@
+.KnowledgeDriveHeading{
+    margin-top: 75px;
+}
+
+.KnowledgeDriveContent{
+    margin-top: 20px;
+}
+
+.DisplayCard{
+    margin-top: 22px;
+    max-height: 500px;
+    overflow-y: auto;
+}

@@ -1,0 +1,22 @@
+.allSearch {
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.searchBox {
+    padding: 1px;
+    width: 100%;
+    height: 25px;
+    border-color: transparent;
+    border-bottom-color: #bcbcbc;
+}
+
+.searchBox:focus {
+    outline: none;
+}
+
+.searchBox:focus::placeholder {
+    color: transparent;
+}

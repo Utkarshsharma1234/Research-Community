@@ -1,0 +1,28 @@
+.notilayout{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100px;
+    max-height: 300px;
+    border : 1px solid lightgray; 
+    border-radius: 20px;
+    padding : 24px 31px; 
+    padding-right: 24px;
+}
+
+.notificationLabel {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.notitop{
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    padding-bottom : 33px; 
+}
+
+.noticont{
+    overflow: auto;
+    overflow-x: hidden;
+}

@@ -1,0 +1,9 @@
+.topbar{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 54px;
+    font-size : 18px;
+    font-weight: 600; 
+}

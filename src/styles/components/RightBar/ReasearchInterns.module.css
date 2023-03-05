@@ -1,0 +1,25 @@
+.ResearchInterns{
+    margin-top: 89.34px;
+}
+
+.DisplayCard{
+    margin-top: 51px;
+}
+
+.ResearchCommunityHead{
+    font-size: 36px;
+    margin-left: 70px;
+    color : var(--primary-color)
+}
+
+.ResearchCommunity{
+    background-color: hsl(var(--primary-hue), 100%, 98%);
+    margin-top: 35px;
+    height: 184px;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    border-top-right-radius: 10px ;
+    border-bottom-right-radius: 10px;
+    border-color: 5px solid red;
+}
