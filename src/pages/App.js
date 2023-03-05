@@ -2,7 +2,7 @@ import React from 'react';
 import style from '@/styles/App.module.css';
 import Sidebar from '@/components/Sidebar/Sidebar';
 import RightSide from '@/components/RightBar/RightSide';
-import Topbar from '@/components/Rightbar/Topbar';
+import Topbar from '../components/RightBar/Topbar';
 import KnowledgeDrive from '@/components/RightBar/KnowledgeDrive';
 
 function App() {
